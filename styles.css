@@ -1,0 +1,60 @@
+/* Style the entire page font and background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcf9f5; /* A soft, warm off-white cream color */
+  color: #4a3b32;            /* A deep earth-tone brown instead of harsh black */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Make the header stand out */
+header {
+  text-align: center;
+  background-color: #e6ccb2; /* A soft yarn-beige background */
+  padding: 30px;
+  border-radius: 12px;       /* Rounds the corners nicely */
+}
+
+header h1 {
+  margin: 0;
+  color: #7f5539;            /* A rich terracotta brown */
+  font-size: 2.5rem;
+}
+
+/* Style our "Add to Cart" buttons */
+button {
+  background-color: #b7b7a4; /* A soft sage green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;           /* Makes the mouse turn into a pointing hand */
+}
+
+/* Make the button change color when hovered over */
+button:hover {
+  background-color: #a3a380; /* A slightly darker sage green */
+}
+
+main {
+  display: flex;
+  gap: 20px; /* Puts a 20px gap between your products */
+  margin-top: 30px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ede0d4;
+  flex: 1; /* Makes both product boxes take up equal width */
+}
+/* Control all images inside our product sections */
+section img {
+  width: 100%;         /* Makes the image stretch exactly to the width of its box */
+  height: 200px;       /* Gives all product images a consistent height */
+  object-fit: cover;   /* Crops the image perfectly so it doesn't look squished or stretched */
+  border-radius: 6px;  /* Rounds the corners of the photo to match our vibe */
+  margin-bottom: 15px; /* Puts some breathing room between the photo and the price */
+}
